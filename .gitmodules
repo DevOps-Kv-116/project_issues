@@ -1,0 +1,15 @@
+[submodule "json-filter"]
+	path = json-filter
+	url = https://github.com/DevOps-Kv-116/json-filter
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/DevOps-Kv-116/frontend
+[submodule "rabbit-to-db"]
+	path = rabbit-to-db
+	url = https://github.com/DevOps-Kv-116/rabbit-to-db
+[submodule "rest-api"]
+	path = rest-api
+	url = https://github.com/DevOps-Kv-116/rest-api
+[submodule "rabbit_to_slack"]
+	path = rabbit_to_slack
+	url = https://github.com/DevOps-Kv-116/rabbit_to_slack
