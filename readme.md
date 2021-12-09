@@ -15,6 +15,9 @@
 	git clone --recurse-submodules https://github.com/DevOps-Kv-116/project_issues.git
 	cd project_issues
 
+### Add bridge network
+
+	sudo docker network create --driver bridge --subnet 10.0.1.0/24 --ip-range 10.0.1.0/24 bridge_issue
 
 ### Build images
 	docker build --tag="rest_api" rest-api/
