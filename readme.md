@@ -47,3 +47,8 @@ Maybe you need to change some env vars for your instance
 In this artictle you can see how to create url for SLACK_URL variable [link](https://medium.com/@sharan.aadarsh/sending-notification-to-slack-using-python-8b71d4f622f3)
 
 	
+### If you need to update submodules run
+
+	git submodule foreach git pull origin main
+	git commit -a -m "update submodules" . 
+	git push
